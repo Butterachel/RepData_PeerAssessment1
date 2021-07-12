@@ -114,5 +114,4 @@ g + geom_line() + facet_grid (day~.) +
         labs(y = "Number of Steps") + labs(x = "Interval") + 
         ggtitle("Average Number of Steps - Weekday vs. Weekend") + 
         theme(plot.title = element_text(hjust = 0.5))
-print(g)
 ```
